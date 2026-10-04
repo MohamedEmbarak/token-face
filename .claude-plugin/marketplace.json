@@ -1,0 +1,12 @@
+{
+  "name": "token-face",
+  "description": "token-face: a Claude Code mod that shows a face above the prompt, more uncanny the fuller the context window gets.",
+  "owner": { "name": "MohamedEmbarak", "url": "https://github.com/MohamedEmbarak" },
+  "plugins": [
+    {
+      "name": "token-face",
+      "source": "./plugins/token-face",
+      "description": "A face above the prompt that gets more uncanny as the context window fills."
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+# Written by Claude Code beside a mod while it is being developed.
+plugins/*/tsconfig.json
+plugins/*/.claude-plugin/types/
+# Only the four stage pictures are published; full-size
+# sources and anything else dropped in faces/ stay on your machine.
+plugins/token-face/faces/*
+!plugins/token-face/faces/[1-4].png

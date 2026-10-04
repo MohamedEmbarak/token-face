@@ -1,0 +1,13 @@
+{
+  "name": "token-face",
+  "version": "0.1.0",
+  "description": "A face above the prompt that gets more uncanny as the context window fills.",
+  "author": {
+    "name": "MohamedEmbarak",
+    "url": "https://github.com/MohamedEmbarak"
+  },
+  "homepage": "https://github.com/MohamedEmbarak/token-face",
+  "repository": "https://github.com/MohamedEmbarak/token-face",
+  "license": "MIT",
+  "types": "./types/index.d.ts"
+}

@@ -28,7 +28,7 @@ type Mood = {
 
 const FRESH: Mood = {
   from: 0,
-  caption: 'Fresh context, no thoughts',
+  caption: 'Fresh',
   color: 'green',
   text: ['(◕‿◕)', '(◠‿◠)'],
   room: '#2e7dd1',
@@ -53,7 +53,7 @@ const MOODS: Mood[] = [
   },
   {
     from: 65,
-    caption: 'It remembers too much',
+    caption: 'Too much',
     color: 'magenta',
     text: ['(⊙_⊙)', '(⊙﹏⊙)'],
     room: '#161616',
@@ -64,7 +64,7 @@ const MOODS: Mood[] = [
   },
   {
     from: 40,
-    caption: 'Getting crowded in here',
+    caption: 'Crowded',
     color: '#ff9f43',
     text: ['(•_•)', '(•_•;)'],
     room: '#4b4f55',
@@ -75,7 +75,7 @@ const MOODS: Mood[] = [
   },
   {
     from: 25,
-    caption: 'Still fine',
+    caption: 'Fine',
     color: 'yellow',
     text: ['(•‿•)', '(-‿•)'],
     room: '#4a6fa5',

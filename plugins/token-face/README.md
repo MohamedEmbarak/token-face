@@ -4,20 +4,20 @@ A Claude Code mod that puts a face above the prompt. The fuller your context
 window gets, the worse the face looks.
 
 ```
-(•_•) Getting crowded in here  61% · 610.1k / 1M  ▁ ▂ ▃ ▄ ▅  ▲ +6.4k last turn
+(•_•) Crowded  61% · 610.1k / 1M  ▁ ▂ ▃ ▄ ▅  ▲ +6.4k last turn
 ```
 
 ## What it shows
 
 - **A face and a caption** for how full the context window is:
 
-  | Context used | Caption |
-  |---|---|
-  | under 25% | Fresh context, no thoughts |
-  | 25–39% | Still fine |
-  | 40–64% | Getting crowded in here |
-  | 65–89% | It remembers too much |
-  | 90% and up | COMPACT. NOW. |
+  | Context used | Caption | Picture |
+  |---|---|---|
+  | under 25% | Fresh | <img src="faces/1.png" width="64" alt="Stage 1 picture"> |
+  | 25–39% | Fine | <img src="faces/1.png" width="64" alt="Stage 1 picture"> |
+  | 40–64% | Crowded | <img src="faces/2.png" width="64" alt="Stage 2 picture"> |
+  | 65–89% | Too much | <img src="faces/3.png" width="64" alt="Stage 3 picture"> |
+  | 90% and up | COMPACT. NOW. | <img src="faces/4.png" width="64" alt="Stage 4 picture"> |
 
 - **The percentage and tokens used**, like `134.4k / 200k`.
 - **A chart of the last 12 turns**, each bar in the colour of the stage that

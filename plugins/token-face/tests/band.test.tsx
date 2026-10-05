@@ -17,7 +17,7 @@ for (const surface of ['terminal', 'desktop'] as const) {
     const ui = await $.ui.mount({ plugin: 'token-face', surface, ...BAND })
     const drawn = JSON.stringify(await ui.drawn())
 
-    expect(drawn).toContain('It remembers too much')
+    expect(drawn).toContain('Too much')
     expect(drawn).toContain('134.4k')
     expect(drawn).toContain('200k')
     expect(drawn).toContain('94.4k')
@@ -53,7 +53,7 @@ test('a compaction calms the face at once', async ($, on) => {
   const ui = await $.ui.mount({ plugin: 'token-face', surface: 'desktop', ...BAND })
   const drawn = JSON.stringify(await ui.drawn())
 
-  expect(drawn).toContain('Fresh context')
+  expect(drawn).toContain('Fresh')
   expect(drawn).toContain('20k')
   expect(drawn).toContain('140k')
 })
@@ -73,7 +73,7 @@ test('a picture in faces/ takes the drawn face\'s place', async ($, on) => {
   const drawn = JSON.stringify(await ui.drawn())
 
   expect(drawn).toContain('data:image/png;base64,aGVsbG8=')
-  expect(drawn).toContain('Fresh context')
+  expect(drawn).toContain('Fresh')
 })
 
 test('each bar keeps the colour of its own turn', async ($, on) => {

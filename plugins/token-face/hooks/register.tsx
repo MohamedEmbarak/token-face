@@ -52,7 +52,7 @@ const MOODS: Mood[] = [
     mouth: '<ellipse cx="32" cy="49" rx="4.5" ry="7.5" fill="#000"/>',
   },
   {
-    from: 75,
+    from: 65,
     caption: 'It remembers too much',
     color: 'magenta',
     text: ['(⊙_⊙)', '(⊙﹏⊙)'],
@@ -63,7 +63,7 @@ const MOODS: Mood[] = [
     mouth: '<path d="M24 48 q8 -4 16 0" fill="none" stroke="#111" stroke-width="2" stroke-linecap="round"/>',
   },
   {
-    from: 50,
+    from: 40,
     caption: 'Getting crowded in here',
     color: '#ff9f43',
     text: ['(•_•)', '(•_•;)'],
@@ -218,7 +218,7 @@ export const register: Register = on => {
     if (e.surface === 'desktop') {
       const { Box, Svg, Text } = $.ui.resolve(e)
       // Four pictures for five moods, fullest mood first: the two freshest
-      // moods (under 50%) share faces/1.
+      // moods (under 40%) share faces/1.
       const stage = MOODS.indexOf(mood)
       const href = await picture($, [4, 3, 2, 1, 1][stage] ?? 1)
 

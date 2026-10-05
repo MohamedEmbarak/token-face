@@ -17,11 +17,11 @@ for (const surface of ['terminal', 'desktop'] as const) {
     const ui = await $.ui.mount({ plugin: 'token-face', surface, ...BAND })
     const drawn = JSON.stringify(await ui.drawn())
 
-    expect(drawn).toContain('Getting crowded in here')
+    expect(drawn).toContain('It remembers too much')
     expect(drawn).toContain('134.4k')
     expect(drawn).toContain('200k')
     expect(drawn).toContain('94.4k')
-    expect(drawn).toContain(surface === 'desktop' ? '<svg' : '(•_•)')
+    expect(drawn).toContain(surface === 'desktop' ? '<svg' : '(⊙_⊙)')
   })
 }
 

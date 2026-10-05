@@ -14,9 +14,9 @@ window gets, the worse the face looks.
   | Context used | Caption |
   |---|---|
   | under 25% | Fresh context, no thoughts |
-  | 25–49% | Still fine |
-  | 50–74% | Getting crowded in here |
-  | 75–89% | It remembers too much |
+  | 25–39% | Still fine |
+  | 40–64% | Getting crowded in here |
+  | 65–89% | It remembers too much |
   | 90% and up | COMPACT. NOW. |
 
 - **The percentage and tokens used**, like `134.4k / 200k`.
@@ -51,9 +51,9 @@ folder. To use your own, replace them:
 
 | File | Shown when context is |
 |---|---|
-| `1.png` | under 50% |
-| `2.png` | 50–74% |
-| `3.png` | 75–89% |
+| `1.png` | under 40% |
+| `2.png` | 40–64% |
+| `3.png` | 65–89% |
 | `4.png` | 90% and up |
 
 png, jpg, jpeg, gif or webp, each under about 85 KB (128×128 is plenty). A
